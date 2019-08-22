@@ -8,7 +8,7 @@ Cooming soon para lo que seárá la nueva web de noradriana con varias secciones
 
 ##Lenguajes
 
-HTML / CSS / JS (jQuery) / PHP
+HTML / CSS / JS / PHP
 
 ##Desarrollado por
 
