@@ -8,7 +8,7 @@
     	<link rel="stylesheet" href="public/css/style.css">
     	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
     	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    	<link href="//www.old.noradriana.com/wp-content/uploads/2016/01/favicon-16x16.png" rel="icon" type="image/x-icon">
+    	<link href="//www.noradriana.com/wp-content/uploads/2016/01/favicon-16x16.png" rel="icon" type="image/x-icon">
     	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     	
