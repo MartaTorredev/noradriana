@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
 		<title>noradriana - diseñadora gráfica freelance</title>
    		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
-    	<link rel="stylesheet" href="public/css/bootstrap_grid.css"n
+    	<link rel="stylesheet" href="public/css/bootstrap_grid.css">
     	<link rel="stylesheet" href="public/css/style.css">
     	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
     	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    	<link href="//www.noradriana.com/wp-content/uploads/2016/01/favicon-16x16.png" rel="icon" type="image/x-icon">
+    	<link href="https://test.noradriana.design/wp-content/uploads/2020/12/cropped-favicon-16x16-1.png" rel="icon" type="image/x-icon">
     	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     	
@@ -21,6 +21,31 @@
 
   gtag('config', 'UA-42824619-1');
 </script>
+		
+		<script async defer data-domain="noradriana.design" src="https://plausible.io/js/plausible.js"></script>
+		
+		<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.noradriana.design/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+		<script>
+		   function onSubmit(token) {
+			 document.getElementById("form-contact").submit();
+		   }
+		 </script>
+
 	</head>
 	
 	<body>  <!-- TODO LO QUE VA APARECER EN LA WEB -->
@@ -53,7 +78,7 @@
 					 			<p>En mis redes sociales podrás enterarte del gran lanzamiento. ¡No te lo pierdas!</p>
 				 			</div>
 				 			<div class="d-flex social-presentation flex-wrap">
-					 			<a href="https://twitter.com/noradriana_" target="_blank"><i class="fab fa-twitter"></i></a>
+					 			<a href="https://twitter.com/noradriana_dsgn" target="_blank"><i class="fab fa-twitter"></i></a>
 					 			<a href="https://instagram.com/noradriana.design" target="_blank"><i class="fab fa-instagram"></i></a>
 					 			<a href="https://www.linkedin.com/in/noraferreiros/" target="_blank"><i class="fab fa-linkedin"></i></a>
 				 			</div>
@@ -64,7 +89,7 @@
 		</div>
 
 
-		<section class="container services" id="services">
+		<section class="container services" id="servicios">
 		 	<div class="row d-flex flex-wrap align-items-end item-services">
 		 		<div class="col-12 col-sm-6 col-lg-3 text-center">
 		 			<div class="block-service bs1">
@@ -191,7 +216,7 @@
             </div>
         </div>
 
-		<section class="container contact" id="contact">
+		<section class="container contact" id="contacto">
 		 	<div class="row">
 		 		<div class="col-12 col-md-5 title-contact">
 		 			<h3 class="text-danger">Contacta conmigo</h3>
@@ -227,7 +252,7 @@
 					    <div class="form-group">
 				    		<div class="footer-form d-flex justify-content-between align-items-center">
 				    			<div class="checkbox"><input required type="checkbox"> Acepto la <a href="public/doc/politicaprivacidad.pdf" target="_blank">política de privacidad</a> (requerido).</div>
-				    			<button type="submit" class="theme">ENVIAR</button>
+				    			<button class="theme g-recaptcha" data-sitekey="6LcvSMAaAAAAAGWawrxw3LQ-TT6QiYiaf7gL1OVu" data-callback='onSubmit' data-action='submit' type="submit">ENVIAR</button>
 				    		</div>
 				    		
 					    </div>
@@ -257,14 +282,14 @@
 		 		<img class="logo-footer img-fluid" src="public/img/logo-footer.svg" alt="">
 		 	</div>
 		 	<div class="text-center mt-4">
-		 		<p class="text-light">Dirección nueva</p>
+		 		<p class="text-light">Vilafranca, 7 - 08024, Barcelona</p>
 		 		<p class="text-light underline"><a href="mailto:escribes@noradriana.com">escribes@noradriana.com</a></p>
 		 	</div>
 		 	<div class="text-center social-footer">
-		 		<a href="https://twitter.com/noradriana_" target="_blank"><i class="fab fa-twitter"></i></a>
+		 		<a href="https://twitter.com/noradriana_dsgn" target="_blank"><i class="fab fa-twitter"></i></a>
 	 			<a href="https://instagram.com/noradriana.design" target="_blank"><i class="fab fa-instagram"></i></a>
 	 			<a href="https://www.linkedin.com/in/noraferreiros/" target="_blank"><i class="fab fa-linkedin"></i></a>
-	 			<a href="skype:noradriana.com?call"><i class="fab fa-skype"></i></a>
+	 			
 	 			
 		 	</div>
 		 	<nav class="d-flex flex-wrap nav">
@@ -277,7 +302,3 @@
 
 
 		<script src="public/js/functions.js"></script>
-	</body>
-
-
-</html>
