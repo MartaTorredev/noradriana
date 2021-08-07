@@ -257,7 +257,7 @@
 		 		<img class="logo-footer img-fluid" src="public/img/logo-footer.svg" alt="">
 		 	</div>
 		 	<div class="text-center mt-4">
-		 		<p class="text-light">Llull, 70-72 3º 5ª - 08005, Barcelona</p>
+		 		<p class="text-light">Dirección nueva</p>
 		 		<p class="text-light underline"><a href="mailto:escribes@noradriana.com">escribes@noradriana.com</a></p>
 		 	</div>
 		 	<div class="text-center social-footer">
