@@ -16,4 +16,4 @@ HTML / CSS / JS / PHP
 
 ##Diseñado por 
 
-<a href="https://noraferreiros.com" target="_blank">Nora Ferrierós</a>
+<a href="https://noraferreiros.com" target="_blank">Nora Ferreirós</a>
