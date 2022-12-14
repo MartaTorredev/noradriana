@@ -1,10 +1,10 @@
-<h1>Cooming Soon Noradriana</h1>
+<h1>Cooming Soon noradriana</h1>
 
 Diseño y desarrollo de cooming soon
 
 ##Descripción
 
-Cooming soon para lo que seárá la nueva web de noradriana con varias secciones descriptivas sobre sus servicios.
+Cooming soon para lo que será la nueva web de noradriana con varias secciones descriptivas sobre sus servicios.
 
 ##Lenguajes
 
