@@ -88,7 +88,7 @@ jQuery(document).ready(function($){
 		})
 		.done
 		(function(data){
-			console.log(data);
+			
 			Swal.fire({
 			  	position: 'center',
 			  	type: 'success',
@@ -105,7 +105,7 @@ jQuery(document).ready(function($){
 		})
 		.fail
 		(function(data){
-			console.log('fallo ajax');
+			console.log('No se ha procesado la solicitud.');
 		});
 		
 	});

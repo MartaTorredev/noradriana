@@ -8,7 +8,7 @@
     	<link rel="stylesheet" href="public/css/style.css">
     	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
     	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    	<link href="https://test.noradriana.design/wp-content/uploads/2020/12/cropped-favicon-16x16-1.png" rel="icon" type="image/x-icon">
+    	<link href="https://test.noradriana.com/wp-content/uploads/2020/12/cropped-favicon-16x16-1.png" rel="icon" type="image/x-icon">
     	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     	
@@ -21,30 +21,11 @@
 
   gtag('config', 'UA-42824619-1');
 </script>
+		<!-- Metricool -->
+		<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"c7df3aa4d662574975366996dc325e84"})});</script>
 		
-		<script async defer data-domain="noradriana.design" src="https://plausible.io/js/plausible.js"></script>
-		
-		<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//analytics.noradriana.design/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
-		<script src="https://www.google.com/recaptcha/api.js"></script>
-		<script>
-		   function onSubmit(token) {
-			 document.getElementById("form-contact").submit();
-		   }
-		 </script>
+		<script defer data-domain="noradriana.com" src="https://plausible.io/js/plausible.js"></script>
+
 
 	</head>
 	
@@ -273,10 +254,6 @@
 		 		</div>
 		 	</div>
 		</section>
-
-
-
-
 		<footer class="footer" id="footer">
 		 	<div class="text-center">
 		 		<img class="logo-footer img-fluid" src="public/img/logo-footer.svg" alt="">
@@ -298,7 +275,49 @@
 			  	<a href="public/doc/politicacookies.pdf" target="_blank">Política de cookies</a>
 			</nav>
 		</footer>
-
+<style>
+		#overbox3 {
+		    position: fixed;
+		    bottom: 0px;
+		    left: 0px;
+		    width: 100%;
+		    z-index: 999999;
+		    display: block;
+		}
+		#infobox3 {
+		    margin: auto;
+		    position: relative;
+		    top: 0px;
+		    height: 58px;
+		    width: 100%;
+		    text-align:center;
+		    background-color: #f2f0d7;
+		}
+		#infobox3 p {
+		    line-height:58px;
+		    font-size:12px;
+		    text-align:center;
+		}
+		#infobox3 p a {
+		    margin-right:5px;
+		    text-decoration: underline;
+		}
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="js/cookies.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="overbox3">
+    <div id="infobox3">
+        <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
+        <a href="public/doc/politicacookies.pdf" target="_blank">Más información</a>
+        <a onclick="aceptar_cookies();" style="cursor:pointer;">X Cerrar</a></p>
+    </div>
+</div>
 
 
 		<script src="public/js/functions.js"></script>
+	</body>
+
+
+</html>

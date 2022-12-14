@@ -13,7 +13,7 @@ $u = $_POST['u'];
 
 	$mail->From = $e;
 	$mail->FromName = $n;
-	$mail->Subject = 'Mensaje Enviado desde Noradariana';
+	$mail->Subject = 'Mensaje enviado desde noradariana';
 	$mail->CharSet = 'UTF-8';
 	$mail->Body = "<b>Mensaje: </b>" . $m . "<br><b>Sitio web: </b>" . $u;
 	$mail->IsHTML(true);
